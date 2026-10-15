@@ -1,0 +1,23 @@
+{
+  "name": "passbild-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Biometrisches Passfoto (35 x 45 mm) lokal im Browser aufnehmen und pruefen",
+  "scripts": {
+    "dev": "vite --host --port 8800",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host --port 8800",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}
